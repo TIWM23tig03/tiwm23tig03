@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Viagens</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> Guiné Bissau </a>
+        </div>
+        <ul class="menu-desktop">
+            <li> <a href="Angola.html"> Angola </a> </li>
+            <li> <a href="Cabo Verde.html"> Cabo Verde </a> </li>
+            <li> <a href="Moçambique.html"> Moçambique </a> </li>
+            <li> <a href="São Tomé.html"> São Tomé e Príncipe </a> </li>
+    
+            
+        </ul>
+
+
+        <ul class="menu-mobile ">
+            <div class ="icon-close">
+                <i class="fa fa-times-circle-o" aria-hidden="true"></i> 
+                <li> <a href="Angola.html"> Angola </a> </li>
+                <li> <a href="Cabo Verde.html"> Cabo Verde </a> </li>
+                <li> <a href="Moçambique.html"> Moçambique </a> </li>
+                <li> <a href="São Tomé.html"> São Tomé e Príncipe </a> </li>
+                
+           
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+
+        </div>
+
+    </nav>
+    <section class="banner1">
+        <header>
+           
+            <img src="Guine Bissau image.jpg">
+           
+           
+        </header>
+    
+        <div class="texto">
+           <p> Guiné Bissau é um país lindo e magnifíco que possui umas belas ilhas <br> 
+               onde podes fazer umas viagens fantásticase e apreciar e contemplar <br> 
+               a sua bela paisagem. Possui uma cultura incrível e contageante e ainda <br> 
+                tem uma gastronomia muito variada. </p>
+
+ 
+
+        </div>
+
+
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="praias de bijagós.jpg">
+           
+           
+        </header>
+    
+        <div class="desenvolvimento">
+            <p> praias de areia fina e dos canais de águas mornas, bordejados <br>
+                 bordejados por palmeiras.      </p>
+               
+
+        </div>
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="vida selvagem Guiné.jpg">
+           
+           
+        </header>
+    
+        <div class="desenvolver">
+            <p>  Guiné possui uma biodiversidade  muito abundante e deversificada <br> 
+                 onde podemos encotrar manguiezais, florestas tropicais e áreas de <br>
+                 de conservação.
+                                </p>
+               
+
+        </div>
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="Guine gastronomia.jpg">
+           
+           
+        </header>
+        <div class="Guiné gastronomia">
+            <p>A gastronomia de Guiné-Bissau é uma mistura de comida portuguesa com <br>
+                africana, caracterizada por ser bem apimentada1. </p>
+               
+                 
+                
+               <div class="table"> 
+                    <table border="1">
+                        <caption>
+                            
+                        </caption>
+                        
+                        <thead>
+                            <tr>
+                                <th colspan="4"> Alguns pratos da Guiné Bissau</th>
+                            </tr>
+                            <tr>
+                                <th>Caldo de chabéu</th>
+                                <th>Caldo de Mancara</th>
+                                <th>Sigá</th>
+                                <th>Pitche-Patche de Ostras</th>
+                            </tr>
+                            <tr>
+                                <th>feito com óleo de palma, quiabos, carne ou peixe.</th>
+                                <th>caldo de amendoim com carne ou peixe.</th>
+                                <th>confecionado com quiabos, carne ou peixe e camarões.</th>
+                                <th>arroz de ostras.</th>
+                            </tr>
+                           
+                           
+                        </thead>
+                    </table>
+                </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+
+
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');   
+ 
+        });
+        
+    </script>
+</body>
+</html>
