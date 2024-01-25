@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Viagens</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> Moçambique </a>
+        </div>
+        <ul class="menu-desktop">
+            <li> <a href="Angola.html"> Angola </a> </li>
+            <li> <a href="Cabo Verde.html"> Cabo Verde</a> </li>
+            <li> <a href="Guiné Bissau.html"> Guiné-Bissau </a> </li>
+            <li> <a href="São Tomé.html">São Tomé e Príncipe</a> </li>
+
+
+        <ul class="menu-mobile ">
+            <div class ="icon-close">
+                <i class="fa fa-times-circle-o" aria-hidden="true"></i> 
+                <li> <a href="Angola.html"> Angola </a> </li>
+                <li> <a href="Cabo Verde.html"> Cabo Verde</a> </li>
+                <li> <a href="Guiné Bissau.html"> Guiné-Bissau </a> </li>
+                <li> <a href="São Tomé.html">São Tomé e Príncipe</a> </li>
+                
+           
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+
+        </div>
+
+    </nav>
+    <section class="banner1">
+        <header>
+           
+            <img src="Moçambique image.jpg">
+           
+           
+        </header>
+    
+        <div class="texto">
+           <p> 	Moçambique possui praias paradisíacas ao longo da sua costa, como <br>
+                 as ilhas Bazaruto e Quirimbas. Ela possui uma cultura que ao longo <br>
+                 do tempo foi influenciada pelas culturas africanas, árabes e  <br>
+                 protugueses na música, dança, arte e culinária. 
+            	Referir a diversidade dos ecossistemas, desde manguezais (mangues) até reservas de vida selvagem, como o Parque Nacional da Gorongosa.
+                Explorar a Ilha de Moçambique, com suas fortalezas e arquitetura colonial.
+            	
+           </p>
+
+ 
+
+        </div>
+
+
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+           <img src="Moçambique ecossistema.jpg"> 
+           
+           
+        </header>
+    
+        <div class="desenvolvimento">
+            <p> Possui uma diversidade de ecossistemas, desde manguezais (mangues) até <br>
+                reservas de vida selvagem, como o Parque Nacinal da Gorongosa. Nas suas ilhas <br>
+                 podemos explorar as suas fortalezas e arquitetura colonial.  </p>
+               
+
+        </div>
+
+    </section>
+    <section class="banner1">
+        <header>
+           <img src="fortaleza de Moçambique.jpg">
+        </header>
+        <header>
+            <img src="Parque Nacional de Gorgonza.jpg">
+        </header>
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="Moçambique Gastronomia.jpg">
+           
+           
+        </header>
+        <div class="gastronomia">
+            <p>A gastronomia de Moçambique é uma fusão das influências Portuguesa, Árabe e Africanas. <br>
+                Badjias: feito com feijão nhemba e comido com pão. É muito popular em Maputo.
+                Peixe grelhado: feito com qualquer tipo de peixe.
+                Mucapata: preparada com arroz, coco e feijão oloco. É uma receita típica da província Zambézia.
+                Guisado de caranguejo: preparado com legumes e vegetais.
+                Frango à zambeziana
+                Moçambique é famoso pelos seus mariscos, entre eles, camarões, lagostas, caranguejos e lulas1. </p>
+                 
+                
+               <div class="table"> 
+                    <table border="1">
+                        <caption>
+                            
+                        </caption>
+                        
+                        <thead>
+                            <tr>
+                                <th colspan="4"> Alguns pratos típicos de Moçambique</th>
+                            </tr>
+                            <tr>
+                                <th>Badjias</th>
+                                <th>Peixe Grelhado</th>
+                                <th>Mucapata</th>
+                                <th>Guisado de caranguejo</th>
+                            </tr>
+                            <tr>
+                                <th>feito com feijão nhemba e comimdo com pão.</th>
+                                <th>feito com qualquer tipo de peixe.</th>
+                                <th>preparado com arroz, coco e feijão.</th>
+                                <th>preparado com legumes e vegetais.</th>
+                            </tr>
+                           
+                           
+                        </thead>
+                    </table>
+                </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+
+
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');   
+ 
+        });
+        
+    </script>
+</body>
+</html>

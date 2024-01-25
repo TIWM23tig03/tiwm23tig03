@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Viagem para Cabo Verde</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> Cabo Verde </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="Angola.html"> Angola </a> </li>
+            <li> <a href="Guiné Bissau.html"> Guiné-bissau  </a> </li>
+            <li> <a href="Moçambique.html"> Moçambique </a> </li>
+            <li> <a href="São Tomé.html"> São Tomé e Príncipe </a> </li>
+            
+        </ul>
+
+
+        <ul class="menu-mobile ">
+            <div class ="icon-close">
+                <i class="fa fa-times-circle-o" aria-hidden="true"></i> 
+                <li> <a href="Angola.html"> Angola</a> </li>
+                <li> <a href="Guiné Bissau.html"> Guiné-bissau </a> </li>
+                <li> <a href="Moçambique.html"> Moçambique </a> </li>
+                <li> <a href="São Tomé.html"> São Tomé e Príncipe </a> </li>
+                
+           
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+
+        </div>
+
+    </nav>
+    <section class="banner1">
+        <header>
+           
+            <img src="R.jpg">
+           
+           
+        </header>
+    
+        <div class="texto">
+           <p> Viajar para Cabo Verde pode ser uma experiência única e enriquecedora<br>
+               por diversos motivos. Aqui estão algumas razões para considerar<br>
+               visitar este arquipélago no oceano Atlântico:
+            </p>
+               
+
+ 
+
+        </div>
+
+
+
+    </section>
+    <section class="banner1">
+        <header>
+            <video width="540" height="360" controls>
+                <source src="aa.mp4" type="video/mp4">
+            </video>
+            
+        
+        </header>
+    
+        <div class="desenvolvimento">
+            <p> Cabo Verde oferece paisagens diversificadas,<br>
+                desde praias de areia branca até vulcões e montanhas impressionantes.<br>
+                cada ilha tem sua própria beleza única.
+            </p>
+               
+
+        </div>
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="cachupa.jpg">
+           
+           
+        </header>
+        <div class="gastronomia">
+            <p> A culinária cabo-verdiana apresenta uma mistura deliciosa de peixes frescos,<br>
+                 frutos do mar, carne e produtos locais. Experimente pratos como a cachupa, um guisado tradicional. 
+            </p>
+                 
+                
+               <div class="table"> 
+                    <table border="1">
+                        <caption>
+                            
+                        </caption>
+                        
+                        <thead>
+                            <tr>
+                                <th colspan="4"> Alguns pratos de Cabo Verde</th>
+                            </tr>
+                            <tr>
+                                <th>Cachupa</th>
+                                <th>Arroz de Marisco</th>
+                                <th>Feijoada</th>
+                                <th>Kukuz</th>
+                            </tr>
+                            <tr>
+                                <th>feito de carnes, milho e feijão.</th>
+                                <th>feito com arroz e com frutos do mar.</th>
+                                <th>é feito com feijão.</th>
+                                <th>é feito com farinha de mandioca ou de milho ou também de trigo.</th>
+                            </tr>
+                           
+                           
+                        </thead>
+                    </table>
+                </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+
+
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');   
+ 
+        });
+        
+    </script>
+</body>
+</html>
