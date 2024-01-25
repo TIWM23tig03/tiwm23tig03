@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Viagem para São Tomé e Príncipe</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html"> São Tomé e Príncipe </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="Angola.html"> Angola </a> </li>
+            <li> <a href="Cabo Verde.html"> Cabo Verde </a> </li>
+            <li> <a href="Guiné Bissau.html"> Guiné-bissau  </a> </li>
+            <li> <a href="Moçambique.html"> Moçambique </a> </li>
+            
+            
+        </ul>
+
+
+        <ul class="menu-mobile ">
+            <div class ="icon-close">
+                <i class="fa fa-times-circle-o" aria-hidden="true"></i> 
+                <li> <a href="Angola.html"> Angola</a> </li>
+                <li> <a href="Cabo Verde.html"> Cabo Verde </a> </li>
+                <li> <a href="Guiné Bissau.html"> Guiné-bissau </a> </li>
+                <li> <a href="Moçambique.html"> Moçambique </a> </li>
+                
+                
+           
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+
+
+        </div>
+
+    </nav>
+    <section class="banner1">
+        <header>
+           
+            <img src="sao-tome-principe-cidade.jpg">
+           
+           
+        </header>
+    
+        <div class="texto">
+           <p>  São Tomé e Príncipe, um pequeno país insular na costa oeste da África, <br>
+                oferece uma experiência única para os viajantes. Aqui estão alguns <br>
+                motivos para considerar uma viagem a São Tomé e Príncipe:<br>
+            </p>
+               
+
+ 
+
+        </div>
+
+
+
+    </section>
+    <section class="banner1">
+        <header>
+            <video width="540" height="360" controls>
+                <source src="SÃO TOMÉ E PRÍNCIPE _ 2020 PAISAGENS, NATUREZA, CULTURA.mp4" type="video/mp4">
+            </video>
+            
+        
+        </header>
+    
+        <div class="desenvolvimento">
+            <p> O país é conhecido por suas paisagens tropicais deslumbrantes,<br>
+                com florestas exuberantes, montanhas vulcânicas, cachoeiras,<br>
+                e praias intocadas. A biodiversidade da flora e fauna é notável.<br>
+            </p>
+               
+
+        </div>
+
+    </section>
+    <section class="banner1">
+        <header>
+           
+            <img src="R (1).jpg">
+           
+           
+        </header>
+        <div class="gastronomia">
+            <p> A gastronomia de São Tomé e Príncipe reflete a rica mistura de <br>
+                influências africanas, portuguesas e locais. Aqui estão alguns pratos<br>
+                típicos que você pode experimentar ao visitar o arquipélago:<br>
+            </p>
+                 
+                
+               <div class="table"> 
+                    <table border="1">
+                        <caption>
+                            
+                        </caption>
+                        
+                        <thead>
+                            <tr>
+                                <th colspan="4"> Alguns pratos de São Tomé e Príncipe</th>
+                            </tr>
+                            <tr>
+                                <th>Calulu</th>
+                                <th>Feijoada à São-Tomense</th>
+                                <th>Leite de Coco e Peixe</th>
+                                
+                            </tr>
+                            <tr>
+                                <th>feito com carnes, peixe ecozido com verduras.</th>
+                                <th> feita com feijão preto, carne de porco.</th>
+                                <th>peixe cozido com leite de coco, cebola, alho e especiarias.</th>
+                                
+                            </tr>
+                           
+                           
+                        </thead>
+                    </table>
+                </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+
+        menuIcon.addEventListener('click',function(){
+            menuMobile.classList.add('ativo');
+        });
+
+
+        iconClose.addEventListener('click',function(){
+            menuMobile.classList.remove('ativo');   
+ 
+        });
+        
+    </script>
+</body>
+</html>
