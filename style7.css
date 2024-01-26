@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+header, footer {
+    background-color: #18929D;; /* Azul representando o turismo */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+} 
+ 
+  
+nav {
+    background-color: #cccbb9;
+    text-align: center;
+}
+  
+nav a {
+    color: #3a3935;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    float: none;
+}
+.img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    margin-top: 20px;
+}
+  
+  
+  
+.content {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+  
+.content2 {
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    
+}
+  
+.content3 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+  
+
+  
+  
+  
+.hr-custom {
+    width: 50%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    margin: 10px auto;
+}
+   
+strong {
+    font-weight: bold;
+    color: #000000;
+}
+.ano-direitos {
+    text-align: center;
+}
+  
+ 
+  
+
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+  
+ 
+ 

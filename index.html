@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Viagens</title>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> PALOP </a>
+        </div>
+        <nav>
+            <a href="Destinos.html">Destinos</a>
+            <a href="https://www.booking.com/flights/index.pt-pt.html">Voos</a>
+           
+        </nav>
+    </header>
+    <body>
+        <section class="banner">
+            <div class="texto">
+            <h1 class="titulo">Estás à procura de umas férias </h1>
+            <h2 class="sub_titulo">maravilhosas e inesquecíveis?</h2>
+            <div class="botoes">
+                
+                <a href="Destinos.html"> <button class="overlay"> Saiba Mais </button> </a>
+            </div>
+            </div>
+        </section>
+        <script>
+            var menuIcon = document.querySelector('.menu-icon');
+            var menuMobile = document.querySelector('.menu-mobile');
+            var iconClose = document.querySelector('.menu-mobile .icon-close');
+
+
+            menuIcon.addEventListener('click',function(){
+                menuMobile.classList.add('ativo');
+            });
+
+
+            iconClose.addEventListener('click',function(){
+                menuMobile.classList.remove('ativo');   
+    
+            });
+            
+        </script>
+    </body>
+    <footer>
+        <div class="logo">
+            <a href="index.html"> PALOP </a>
+        </div>
+        <div class="ano-direitos">
+            © 2024 PALOP
+        </div>
+    </footer>
+</body>
+</html>
